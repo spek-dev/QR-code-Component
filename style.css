@@ -9,8 +9,8 @@ body {
 .qr-code {
     background: #fff;
     width: 20rem;
-    height: 29rem;
-    margin: 6.25rem 0 0 0;
+    height: 34rem;
+    margin: 5rem 0 0 0;
     border-radius: 1.25rem;
 }
 
@@ -29,5 +29,19 @@ h1 {
 
 p {
     font-size: 14px;
-    color: 	#95b1d1;
+    color: #95b1d1;
+    padding: 0 0 .34rem 0;
+}
+
+span, a {
+    font-size: .844rem; 
+    text-decoration: none;
+    color: #000;
+    transition: 400ms;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #12f194;
+    transition: 400ms;
 }
